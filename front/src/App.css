@@ -1,0 +1,85 @@
+/* 页面背景和字体 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50; /* 深蓝色背景 */
+  color: #ecf0f1; /* 浅灰色文字 */
+}
+
+/* 标题样式 */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+/* 按钮样式 */
+button {
+  padding: 10px 15px;
+  background-color: #3498db; /* 蓝色按钮 */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2980b9; /* 深蓝色悬停效果 */
+}
+
+/* 输入框和筛选器样式 */
+input, select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #7f8c8d; /* 灰色边框 */
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #34495e; /* 深灰色背景 */
+  color: #ecf0f1; /* 浅灰色文字 */
+}
+
+input::placeholder {
+  color: #bdc3c7; /* 浅灰色占位符 */
+}
+
+/* 表格样式 */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #34495e; /* 深灰色背景 */
+}
+
+table th, table td {
+  border: 1px solid #2c3e50; /* 边框颜色 */
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #1abc9c; /* 青绿色标题 */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+table td {
+  color: #ecf0f1; /* 浅灰色文字 */
+}
+
+/* 页面整体布局 */
+div {
+  margin: 0 auto;
+  max-width: 1200px; /* 限制页面宽度 */
+  padding: 20px;
+}
